@@ -1,0 +1,32 @@
+{
+    "development": {
+      "username": "root",          
+      "password": "", 
+      "database": "db_quiz",      
+      "host": "localhost",        
+      "logging": false,
+      "dialect": "mysql"     
+    },
+    "test": {
+      "username": "root",
+      "password": "your_password",
+      "database": "quiz_app_test",
+      "host": "localhost",
+      "dialect": "mysql",
+      "logging": false
+    },
+    "production": {
+      "username": "root",
+      "password": "your_password",
+      "database": "quiz_app",
+      "host": "localhost",
+      "dialect": "mysql",
+      "logging": false,
+      "pool": {
+        "max": 10,
+        "min": 0,
+        "idle": 10000
+      }
+    }
+  }
+  
